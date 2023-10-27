@@ -1,0 +1,47 @@
+@font-face {
+    font-family: pixelDrop;
+    src: url("../fonts/Pixeldrop.otf");
+}
+/* CSS default props. */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: pixelDrop;
+}
+/* container props. */
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+/* dice props. */
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+/* body props. */
+body {
+    background-color: #F2A21D;
+}
+/* h1 props. */
+h1 {
+    margin: 30px;
+    font-size: 4rem;
+    text-shadow: 5px 0 #232931;
+    color: #AA4A0F;
+}
+/* p props. */
+p {
+    font-size: 2rem;
+}
+/* img props. */
+img {
+    width: 80%;
+}
+/* footer props. */
+footer {
+    font-size: 1.5rem;
+    margin-top: 5%;
+    color: #AA4A0F;
+    text-align: center;
+}
